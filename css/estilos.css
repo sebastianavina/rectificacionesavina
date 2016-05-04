@@ -1,0 +1,239 @@
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: inherit;
+     font-style: inherit;
+     font-size: 100%;
+     font-family: inherit;
+     vertical-align: baseline;
+}
+
+:focus {
+     outline: 0;
+}
+
+ol, ul {
+     list-style: none;
+}
+
+table {
+     border-collapse: separate;
+     border-spacing: 0;
+}
+
+caption, th, td {
+     text-align: left;
+     font-weight: normal;
+}
+
+blockquote:before, blockquote:after,q:before, q:after {
+     content: "";
+}
+
+blockquote, q {
+     quotes: "" "";
+}
+
+
+html{ 
+    background:url(/img/fondo.jpg)  repeat-x top left;
+}
+
+
+body {
+	color: #555;
+	font: 11px "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; /*Sets all fonts to 10px for easy sizing with em*/
+     line-height: 150%;
+}
+a {
+	color: #444;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #036;
+	text-decoration: underline;
+
+}
+
+acronym {
+	border-bottom: 1px dotted #777;
+	text-decoration: none;
+	cursor: help;
+}
+
+code {
+	background: #F4F4F4;
+	color: #999;
+	font: 10px "Courier New", Courier, monospace;
+}
+
+img {
+	border: 0 none;
+}
+
+hr {
+	border: 0 none;
+	clear: both;
+	width: 0;
+	color: #FFF;
+	height: 0;
+	display:none;
+}
+#nomostrar {
+	display:none;
+}
+
+p {
+     line-height: 150%;
+}
+
+/*&&&&&>> Navigation <<&&&&&*/
+
+ul.topMenu {
+	position:relative;
+	float:left;
+	clear:both;
+	width:100%;
+	position:relative;
+	clear:both;
+	padding-top:5px;
+	background:url(/img/fondo_menu.jpg) repeat-x top right;
+	}
+
+ul.topMenu li {
+	background: #CCC url(/img/fondoDer.png) no-repeat top right;
+	display: block;
+	float: left;
+	padding: 0px 0px 0 0; /* width of utm_li */
+	height: 28px; /* height of 1 unit */
+	width: auto;
+
+float:left;
+background:#CCC;
+	}
+
+ul.topMenu li a:link,ul.topMenu li a:visited {
+	background: #CCC url(/img/fondoIzq.png) no-repeat top left;
+	color: #666;
+	display: block;
+	font: 11px "Trebuchet MS",verdana,sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0;
+	height: 28px;
+	font-weight: bold;	
+	vertical-align:top;
+}
+
+ul.topMenu li a:link span,ul.topMenu li a:visited span {
+	background: url(/img/fondoDer.png) no-repeat top right;
+	display: block;
+	padding: 4px 25px 2px 25px;
+	height: 21px;
+	}
+
+/*&&>> Hover <<&&*/
+
+ul.topMenu li a:hover {
+	background-position: left -56px;
+	}
+
+ul.topMenu li a:hover span {
+	color: #000;
+	background-position: right -56px;
+	cursor: pointer;
+	}
+
+/*&&>> Current State <<&&*/
+
+.home .home {
+	background-position: left -28px !important;
+	}
+
+.home .home span {
+	background-position: right -28px !important;
+	}
+
+img.contenido {
+	padding:10px;
+}
+
+
+      #map_canvas {
+        width: 500px;
+        height: 400px;
+}
+/* menu lateral */
+ol.buscador {
+}
+ol.buscador li.titulomain {
+text-align:left;
+font-size:2em;
+}
+ol.buscador li {
+text-align:left;
+padding:4px;
+}
+ol.buscador ul li.titulo {
+    background-color:#CCC;
+    font-size:1.5em;
+    border:1px solid #999;
+}
+
+ol.buscador ul a:hover li {
+    background-color:#ECECEC;
+}
+
+div.contenedorPrincipal h1 {
+    font-size:2.5em;
+    padding:20px 0 20px 0;
+
+}
+div.contenedorPrincipal h2 {
+    font-size:1.8em;
+    padding:20px 0 20px 0;
+
+}
+
+a.galeria-normal {
+    width:100%;
+    cleat:both;
+    float:left;
+}
+a.galeria-normal img {
+    width: 120px; 
+    border:1px solid #333;
+    padding:10px;
+    color:white;
+    margin:10px;
+    float:left;
+}
+a.galeria-normal div {
+    float:left;
+}
+a.galeria-normal div p {
+    width:400px;
+}
+a.galeria-normal div h1 {
+    
+}
+
+h3 {
+    font-size:140%;
+    font-weight:bolder;
+    padding-bottom:10px;
+}
+
+ul.servicios {
+
+    padding-left:10px;
+
+}
+
+ul.servicios li {
+    padding-bottom:5px;
+}
