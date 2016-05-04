@@ -1,0 +1,127 @@
+;; Object rectificacionesavina-new/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "rectificacionesavina-new/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags '(("FILOSOFIA" section nil nil [1072 1333]) ("MISI&Oacute;N:" section nil nil [1333 1536]) ("VISI&Oacute;N:" section nil nil [1536 1727]) ("VALORES:" section nil nil [1727 1730]))
+    :file "index.html"
+    :pointmax 1876
+    :unmatched-syntax 'nil
+    )
+    (semanticdb-table "base.html"
+    :major-mode 'html-mode
+    :tags '(("Rectificaciones Aviña SA de CV" section nil nil [171 495]) (".contenedor {
+    margin: 0 auto;
+    text-align:center;	
+    font: 11px \"Lucida Grande\", \"Lucida Sans Unicode\", Verdana, Arial, Helvetica, sans-serif;
+    width:920px;
+    margin: 20px auto;
+    position:relative;
+	background-color:white;
+}
+
+ul.topMen {
+width:200px;
+display:bock;
+text-align:center;
+margin: 0 auto;
+padding: 0 0 1.5em 0;
+}
+
+div.cabecera {
+width:100%;
+position:relative;
+clear:both;
+}
+
+div.cabecera div.texto {
+width:330px;
+float:left;
+padding-top:4em;
+color:#333;
+}
+
+
+-->" section nil nil [495 611]) (".contenedor {
+    margin: 0 auto;
+    text-align:center;	
+    font: 11px \"Lucida Grande\", \"Lucida Sans Unicode\", Verdana, Arial, Helvetica, sans-serif;
+    width:920px;
+    margin: 20px auto;
+    position:relative;
+	background-color:white;
+}
+
+ul.topMen {
+width:200px;
+display:bock;
+text-align:center;
+margin: 0 auto;
+padding: 0 0 1.5em 0;
+}
+
+div.cabecera {
+width:100%;
+position:relative;
+clear:both;
+}
+
+div.cabecera div.texto {
+width:330px;
+float:left;
+padding-top:4em;
+color:#333;
+}
+
+
+-->" section nil nil [611 1204]) ("mostrador" section (:members (("mostrador" section nil nil [1506 1929]) ("mostrador@autopoartesavina.com" section nil nil [1929 2022]) ("refacciones@rectificacionesavina.com" section nil nil [2022 2121]) ("taller@rectificacionesavina.com" section nil nil [2121 2257]) ("Servicios" section nil nil [2257 2340]) ("Ubicaciones" section nil nil [2340 2430]) ("Contactanos" section nil nil [2430 2779]) ("Maquinados especializados" section nil nil [2779 2873]) ("Reconstrucci&oacute;n de partes" section nil nil [2873 2970]) ("Cilindros y bombas hidraul&iacute;cas" section nil nil [2970 3115]) ("Fabricaciones metalmec&aacute;nicas" section nil nil [3115 3216]) ("Soldadura especializada" section nil nil [3216 3291]) ("Metalizado" section nil nil [3291 3410]) ("Rectificaci&oacute;n de motores de combusti&oacute;n interna" section nil nil [3410 3545]) ("Dise&ntilde;o y fabricaci&oacute;n de empaques" section nil nil [3545 3676]) ("Magnaflux" section nil nil [3676 3775]) ("Dise&ntilde;o de maquinaria especializada" section nil nil [3775 3932]) ("Refacci&oacute;n automotriz" section nil nil [3932 4020]) ("Refacci&oacute;n de servicio pesado" section nil nil [4020 4121]) ("Refacci&oacute;n industrial" section nil nil [4121 4124]))) nil [1204 1209]))
+    :file "base.html"
+    :pointmax 4951
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "comercial-refaccion-automotriz.html"
+    :major-mode 'html-mode
+    :tags '(("Compra / Venta de refacciones nacionales e importadas." section nil nil [31 34]))
+    :file "comercial-refaccion-automotriz.html"
+    :pointmax 2209
+    )
+   (semanticdb-table "maquinados-industriales-especializados.html"
+    :major-mode 'html-mode
+    :tags '(("Diseño y fabricación de maquinaria industrial especializada:" section (:members (("Maquina portatil de corte en linea" section nil nil #<overlay from 514 to 657 in diseno-de-maquinaria-especializada.html>))) nil #<overlay from 31 to 657 in diseno-de-maquinaria-especializada.html>) ("Maquina portatil de corte en linea" section (:members (("Pantografo de OxiGas/Plasma CNC" section nil nil #<overlay from 899 to 1042 in diseno-de-maquinaria-especializada.html>))) nil #<overlay from 657 to 1042 in diseno-de-maquinaria-especializada.html>) ("Pantografo de OxiGas/Plasma CNC" section nil nil #<overlay from 1042 to 1045 in diseno-de-maquinaria-especializada.html>))
+    :file "maquinados-industriales-especializados.html"
+    :pointmax 2792
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "maquinados-reconstruccion-de-partes.html"
+    :major-mode 'html-mode
+    :tags '(("Reconstruccón de partes:" section (:members (("Espiga diferencial / molote" section nil nil [206 349]))) nil [31 349]) ("Espiga diferencial / molote" section (:members (("Recuperación de partes" section nil nil [455 598]))) nil [349 598]) ("Recuperación de partes" section (:members (("Bomba de lodos" section nil nil [789 932]))) nil [598 932]) ("Bomba de lodos" section nil nil [932 935]))
+    :file "maquinados-reconstruccion-de-partes.html"
+    :pointmax 1047
+    )
+   (semanticdb-table "maquinados-cilindros-y-bombas-hidraulicas.html"
+    :major-mode 'html-mode
+    :tags '(("Servicios" section (:members (("Equipo" section nil nil #<overlay from 515 to 1131 in servicios.html>) ("Garantía de calidad" section nil nil #<overlay from 1131 to 1357 in servicios.html>) ("Software" section nil nil #<overlay from 1357 to 1360 in servicios.html>))) nil #<overlay from 94 to 97 in servicios.html>))
+    :file "maquinados-cilindros-y-bombas-hidraulicas.html"
+    )
+   (semanticdb-table "Magnaflux.html"
+    :major-mode 'html-mode
+    :tags 'nil
+    :file "Magnaflux.html"
+    )
+   (semanticdb-table "soldaduras-especiales.html"
+    :major-mode 'html-mode
+    :tags '(("Soldaduras especiales:" section (:members (("Recuperación de culata" section nil nil [204 347]))) nil [31 347]) ("Recuperación de culata" section (:members (("Soldadura en pieza de Fo. Vo." section nil nil [471 614]))) nil [347 614]) ("Soldadura en pieza de Fo. Vo." section (:members (("Soldaduras fina" section nil nil [745 888]))) nil [614 888]) ("Soldaduras fina" section nil nil [888 891]))
+    :file "soldaduras-especiales.html"
+    :pointmax 977
+    )
+   (semanticdb-table "ubicaciones.html"
+    :major-mode 'html-mode
+    :tags '(("Contactanos:" section (:members (("mostrador@autopartesavina.com" section nil nil #<overlay from 412 to 745 in contactanos.html>) ("creditoycobranza@autopartesavina.com" section nil nil #<overlay from 745 to 1074 in contactanos.html>) ("refacciones@rectificacionesavina.com" section nil nil #<overlay from 1074 to 1425 in contactanos.html>) ("sebastian@rectificacionesavina.com" section nil nil #<overlay from 1425 to 1428 in contactanos.html>))) nil #<overlay from 31 to 34 in contactanos.html>))
+    :file "ubicaciones.html"
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

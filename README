@@ -1,0 +1,2 @@
+pygreen serve
+pygreen gen <output_folder>
