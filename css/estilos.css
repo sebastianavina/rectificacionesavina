@@ -224,6 +224,7 @@ a.galeria-normal div h1 {
 
 #masImagenes {
     float:right;
+    clear:right;
 }
 #masImagenes div {
     font-size:20px;
