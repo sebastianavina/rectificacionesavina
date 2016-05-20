@@ -222,6 +222,25 @@ a.galeria-normal div h1 {
     
 }
 
+#masImagenes {
+    float:right;
+}
+#masImagenes div {
+    font-size:20px;
+    padding:10px;
+    float:left;
+}
+a.galeria-small {
+    float:left;
+}
+a.galeria-small img {
+    width: 60px; 
+    border:1px solid #333;
+    color:white;
+    float:left;
+    margin-right:10px;
+}
+
 h3 {
     font-size:140%;
     font-weight:bolder;
