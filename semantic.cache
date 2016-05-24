@@ -2,7 +2,7 @@
 ;; SEMANTICDB Tags save file
 (semanticdb-project-database-file "rectificacionesavina-web/"
   :tables (list 
-    (semanticdb-table "base.html"
+   (semanticdb-table "base.html"
     :major-mode 'html-mode
     :tags '(("Rectificaciones Aviña SA de CV" section nil nil [171 1048]) ("mostrador" section (:members (("mostrador" section nil nil [1350 1773]) ("mostrador@autopoartesavina.com" section nil nil [1773 1866]) ("refacciones@rectificacionesavina.com" section nil nil [1866 1965]) ("taller@rectificacionesavina.com" section nil nil [1965 2101]) ("Servicios" section nil nil [2101 2184]) ("Ubicaciones" section nil nil [2184 2274]) ("Contactanos" section nil nil [2274 2623]) ("Maquinados especializados" section nil nil [2623 2717]) ("Reconstrucci&oacute;n de partes" section nil nil [2717 2814]) ("Cilindros y bombas hidraul&iacute;cas" section nil nil [2814 2959]) ("Fabricaciones metalmec&aacute;nicas" section nil nil [2959 3060]) ("Soldadura especializada" section nil nil [3060 3135]) ("Metalizado" section nil nil [3135 3254]) ("Rectificaci&oacute;n de motores de combusti&oacute;n interna" section nil nil [3254 3389]) ("Dise&ntilde;o y fabricaci&oacute;n de empaques" section nil nil [3389 3520]) ("Magnaflux" section nil nil [3520 3619]) ("Dise&ntilde;o de maquinaria especializada" section nil nil [3619 3776]) ("Refacci&oacute;n automotriz" section nil nil [3776 3864]) ("Refacci&oacute;n de servicio pesado" section nil nil [3864 3965]) ("Refacci&oacute;n industrial" section nil nil [3965 4776]))) nil [1048 4776]) ("(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,15 +22,47 @@
     )
    (semanticdb-table "maquinados-industriales-especializados.html"
     :major-mode 'html-mode
-    :tags '(("Maquinados especializados:" section (:members (("Helicoidal 45° MOD 3" section nil nil [479 764]))) nil [31 764]) ("Helicoidal 45° MOD 3" section (:members (("Engrane de cuerpo de aceleración" section nil nil [870 1119]))) nil [764 1119]) ("Engrane de cuerpo de aceleración" section (:members (("Engranes pequeños" section nil nil [1265 1456]))) nil [1119 1456]) ("Engranes pequeños" section (:members (("Engrane de transmisión" section nil nil [1567 1842]))) nil [1456 1842]) ("Engrane de transmisión" section (:members (("Helicoidal para compresor de tornillo" section nil nil [2006 2295]))) nil [1842 2295]) ("Helicoidal para compresor de tornillo" section (:members (("Engranes recibidos para fabricación" section nil nil [2461 2758]))) nil [2295 2758]) ("Engranes recibidos para fabricación" section (:members (("Engrane" section nil nil [2854 3073]))) nil [2758 3073]) ("Engrane" section (:members (("Polea dentada de impresora digital" section nil nil [3143 3346]))) nil [3073 3346]) ("Polea dentada de impresora digital" section nil nil [3346 3349]))
+    :tags '(("Maquinados especializados:" section (:members (("Helicoidal 45° MOD 3" section nil nil [479 764]))) nil [31 764]) ("Helicoidal 45° MOD 3" section (:members (("Engrane de cuerpo de aceleración" section nil nil [870 1119]))) nil [764 1119]) ("Engrane de cuerpo de aceleración" section (:members (("Engranes pequeños" section nil nil [1265 1456]))) nil [1119 1456]) ("Engranes pequeños" section (:members (("Engrane sincronico." section nil nil [1568 1785]))) nil [1456 1785]) ("Engrane sincronico." section (:members (("Engrane de transmisión" section nil nil [2032 2260]) ("Engrane de transmisión" section nil nil [2260 2535]))) nil [1785 2535]) ("Engrane de transmisión" section (:members (("Helicoidal para compresor de tornillo" section nil nil [2699 2988]))) nil [2535 2988]) ("Helicoidal para compresor de tornillo" section (:members (("Engranes recibidos para fabricación" section nil nil [3154 3451]))) nil [2988 3451]) ("Engranes recibidos para fabricación" section (:members (("Dados para roladora de tubos" section nil nil [3548 3735]))) nil [3451 3735]) ("Dados para roladora de tubos" section (:members (("Engrane" section nil nil [3894 4078]) ("Engrane" section nil nil [4078 4271]) ("Engrane" section nil nil [4271 4490]))) nil [3735 4490]) ("Engrane" section (:members (("Polea dentada de impresora digital" section nil nil [4560 4763]))) nil [4490 4763]) ("Polea dentada de impresora digital" section nil nil [4763 4766]))
     :file "maquinados-industriales-especializados.html"
-    :pointmax 3477
+    :pointmax 4895
+    :unmatched-syntax 'nil
     )
    (semanticdb-table "404.html"
     :major-mode 'html-mode
     :tags '(("Error 404." section (:members (("Error 404." section nil nil [21 24]))) nil [10 15]))
     :file "404.html"
     :pointmax 86
+    )
+   (semanticdb-table "comercial-refaccionaria-industrial.html"
+    :major-mode 'html-mode
+    :tags '(("Poleas de aluminio:" section (:members (("Stock de polea de aluminio" section nil nil [182 325]))) nil [31 325]) ("Stock de polea de aluminio" section nil nil [325 568]) ("Balero industrial y automotriz:" section (:members (("Stock de balero automotríz e industrial" section nil nil [761 904]))) nil [568 904]) ("Stock de balero automotríz e industrial" section nil nil [904 1160]) ("Chumacera:" section (:members (("Stock de chumacera de piso y de pared" section nil nil [1284 1427]))) nil [1160 1427]) ("Stock de chumacera de piso y de pared" section nil nil [1427 1430]))
+    :file "comercial-refaccionaria-industrial.html"
+    :pointmax 1679
+    )
+   (semanticdb-table "diseno-de-maquinaria-especializada.html"
+    :major-mode 'html-mode
+    :tags '(("Diseño y fabricación de maquinaria industrial especializada:" section (:members (("Maquina portatil de corte en linea" section nil nil [514 717]))) nil [31 717]) ("Maquina portatil de corte en linea" section (:members (("Pantografo de OxiGas/Plasma CNC" section nil nil [959 1186]))) nil [717 1186]) ("Pantografo de OxiGas/Plasma CNC" section nil nil [1186 1189]))
+    :file "diseno-de-maquinaria-especializada.html"
+    :pointmax 1401
+    )
+   (semanticdb-table "soldaduras-fabricaciones-especiales.html"
+    :major-mode 'html-mode
+    :tags '(("Fabricaciones metal mecanicas:" section (:members (("Fabricación de asador de chiles" section nil nil [212 441]))) nil [31 441]) ("Fabricación de asador de chiles" section (:members (("Fabricación de puesto de hamburguesas" section nil nil [562 705]))) nil [441 705]) ("Fabricación de puesto de hamburguesas" section (:members (("Fabricación de revolvedora" section nil nil [821 964]))) nil [705 964]) ("Fabricación de revolvedora" section nil nil [964 967]))
+    :file "soldaduras-fabricaciones-especiales.html"
+    :pointmax 1084
+    )
+   (semanticdb-table "maquinados-cilindros-y-bombas-hidraulicas.html"
+    :major-mode 'html-mode
+    :tags '(("Bombas hidraulicas:" section (:members (("Fabricación de cilindro hidraulico" section nil nil [201 424]))) nil [31 424]) ("Fabricación de cilindro hidraulico" section (:members (("Rectificado de espejos" section nil nil [881 1101]) ("Rectificado de espejos" section nil nil [1101 1330]) ("Rectificado de espejos" section nil nil [1330 1473]))) nil [424 1473]) ("Rectificado de espejos" section (:members (("Rectificado de caja de valvulas hidraulicas" section nil nil [1665 1808]))) nil [1473 1808]) ("Rectificado de caja de valvulas hidraulicas" section nil nil [1808 1811]))
+    :file "maquinados-cilindros-y-bombas-hidraulicas.html"
+    :pointmax 1953
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "soldaduras-especiales.html"
+    :major-mode 'html-mode
+    :tags '(("Soldaduras especiales:" section (:members (("Recuperación de culata" section nil nil [204 347]))) nil [31 347]) ("Recuperación de culata" section (:members (("Soldadura en pieza de Fo. Vo." section nil nil [471 614]))) nil [347 614]) ("Soldadura en pieza de Fo. Vo." section (:members (("Soldaduras fina" section nil nil [786 1017]))) nil [614 1017]) ("Soldaduras fina" section (:members (("" section nil nil [1260 1488]) ("" section nil nil [1488 1716]) ("" section nil nil [1716 1944]) ("" section nil nil [1944 1947]))) nil [1017 1020]))
+    :file "soldaduras-especiales.html"
+    :pointmax 2191
     )
    )
   :file "semantic.cache"
