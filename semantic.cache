@@ -8,6 +8,30 @@
     :file "Magnaflux.html"
     :pointmax 1717
     )
+   (semanticdb-table "maquinados-industriales-especializados.html"
+    :major-mode 'html-mode
+    :tags '(("Maquinados especializados:" section nil nil [81 85]))
+    :file "maquinados-industriales-especializados.html"
+    :pointmax 3483
+    )
+   (semanticdb-table "rectificacion-de-motores-a-diesel-y-gasolina.html"
+    :major-mode 'html-mode
+    :tags '(("Servicios de rectificación de motores:" section nil nil [81 85]))
+    :file "rectificacion-de-motores-a-diesel-y-gasolina.html"
+    :pointmax 2888
+    )
+   (semanticdb-table "base.html"
+    :major-mode 'html-mode
+    :tags '(("Rectificaciones Aviña SA de CV" section nil nil [171 1071]) ("mostrador" section (:members (("mostrador" section nil nil [1373 1796]) ("mostrador@autopoartesavina.com" section nil nil [1796 1889]) ("refacciones@rectificacionesavina.com" section nil nil [1889 1988]) ("taller@rectificacionesavina.com" section nil nil [1988 2124]) ("Servicios" section nil nil [2124 2207]) ("Ubicaciones" section nil nil [2207 2297]) ("Contactanos" section nil nil [2297 2645]) ("Maquinados especializados" section nil nil [2645 2739]) ("Reconstrucci&oacute;n de partes" section nil nil [2739 2836]) ("Cilindros y bombas hidraul&iacute;cas" section nil nil [2836 2981]) ("Fabricaciones metalmec&aacute;nicas" section nil nil [2981 3082]) ("Soldadura especializada" section nil nil [3082 3157]) ("Metalizado" section nil nil [3157 3276]) ("Rectificaci&oacute;n de motores de combusti&oacute;n interna" section nil nil [3276 3411]) ("Dise&ntilde;o y fabricaci&oacute;n de empaques" section nil nil [3411 3542]) ("Magnaflux" section nil nil [3542 3641]) ("Dise&ntilde;o de maquinaria especializada" section nil nil [3641 3798]) ("Refacci&oacute;n automotriz" section nil nil [3798 3886]) ("Refacci&oacute;n de servicio pesado" section nil nil [3886 3987]) ("Refacci&oacute;n industrial" section nil nil [3987 4798]))) nil [1071 4798]) ("(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1057970-2', 'auto');
+  ga('send', 'pageview');" section nil nil [4798 5225]) ("" section nil nil [5225 5233]))
+    :file "base.html"
+    :pointmax 5290
+    )
    )
   :file "semantic.cache"
   :semantic-tag-version "2.0pre4"
