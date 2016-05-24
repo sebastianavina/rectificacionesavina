@@ -179,9 +179,11 @@ text-align:left;
 padding:4px;
 }
 ol.buscador ul li.titulo {
-    background-color:#CCC;
-    font-size:1.5em;
+    font-size:1.0em;
     border:1px solid #999;
+    background:#666 url(/img/menuIzq.png) repeat-x;
+    color:white;
+    font-weight:bolder;
 }
 
 ol.buscador ul a:hover li {
@@ -206,11 +208,12 @@ a.galeria-normal {
 }
 a.galeria-normal img {
     width: 120px; 
-    border:1px solid #333;
+    border:1px solid #666;
     padding:10px;
     color:white;
     margin:10px;
     float:left;
+    background-color:#FAFAFA;
 }
 a.galeria-normal div {
     float:left;
@@ -236,7 +239,7 @@ a.galeria-small {
 }
 a.galeria-small img {
     width: 60px; 
-    border:1px solid #333;
+    border:1px solid #666;
     color:white;
     float:left;
     margin-right:10px;
@@ -256,4 +259,12 @@ ul.servicios {
 
 ul.servicios li {
     padding-bottom:5px;
+}
+
+p.contenido {
+    margin-left:20px;
+}
+
+h1.titulo {
+    margin-left:20px;
 }
