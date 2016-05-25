@@ -229,7 +229,7 @@ a.galeria-normal div h1 {
     float:right;
     clear:right;
 }
-#masImagenes div {
+#masImagenes div.letrero {
     font-size:20px;
     padding:10px;
     float:left;
@@ -237,15 +237,18 @@ a.galeria-normal div h1 {
     height:40px;
     text-align:right;
 }
-a.galeria-small {
+#masImagenes div.fotos {
     float:right;
+    max-width:400px;
+}
+a.galeria-small {
     
 }
 a.galeria-small img {
     width: 60px; 
     border:1px solid #666;
     color:white;
-    float:right;
+    float:left;
     margin-right:10px;
     margin-bottom:5px;
 }
