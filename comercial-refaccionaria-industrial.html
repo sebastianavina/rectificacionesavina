@@ -88,7 +88,6 @@ div.cabecera div.texto {
 	<li class="titulo">Soldaduras</li>
 	<a href="soldaduras-fabricaciones-especiales.html"><li>Fabricaciones metalmec&aacute;nicas</li></a>
 	<a href="soldaduras-especiales.html"><li>Soldadura especializada</li></a>
-	<a href="soldaduras-metalizado.html"><li>Metalizado</li></a>
 	<li class="titulo">Rectificaci&oacute;n de motores</li>
 	<a href="rectificacion-de-motores-a-diesel-y-gasolina.html"><li>Rectificaci&oacute;n de motores de combusti&oacute;n interna</li></a>
 	<a href="rectificacion-fabricacion-de-empaques-de-cabeza-culata.html"><li>Dise&ntilde;o y fabricaci&oacute;n de empaques</li></a>

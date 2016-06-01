@@ -27,7 +27,7 @@
     :major-mode 'html-mode
     :tags '(("Soldaduras especiales:" section nil nil [31 34]))
     :file "soldaduras-especiales.html"
-    :pointmax 3905
+    :pointmax 4053
     :unmatched-syntax 'nil
     )
    (semanticdb-table "soldaduras-fabricaciones-especiales.html"
