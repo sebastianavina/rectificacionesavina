@@ -1,7 +1,23 @@
 <%inherit file="base.mako"/>
 
-<h1><a name="marcas">Marcas:</<a></h1>
+<%block name="header">Fabricacion de empaques - </%block>
+
+<h1><a name="marcas">Fabricación de empaques:</a></h1>
 
 <div style="width:100%;float:left;clear:both;">
-  Contenido
+
+Se cuenta con capacidad instalada para la fabricación de empaques de cabeza en lamina de cobre. Si su motor es muy viejo, o bien, desea aumentar su temperatura de operación por motivos de Performance, en Rectificaciones Aviña le fabricamos un empaque de cabeza hecho a la medida.
+
+<%namespace file="base_elemento.mako" name="funciones" />
+
+
+${funciones.elemento({
+"titulo": "Fabricaci&oacute;n de empaque de cabeza",
+"descripcion": "Fabricaci&oacute;n de empaque de cabeza en lamina de cobre.",
+"imagen_principal": "/img/galeria/no-disponible.png",
+"descripcion_imagen": "" ,
+"mas_imagenes": []
+})}
+
+
 </div>
