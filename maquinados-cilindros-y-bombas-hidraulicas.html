@@ -1,5 +1,8 @@
 <%inherit file="base.mako"/>
 <%block name="header">Fabricacion, reconstruccion de cilindros hidraulicos, bombas y cajas de valvulas - </%block>
+
+<%namespace file="base_elemento.mako" name="funciones" />
+
 <h1><a name="marcas">Bombas hidraulicas:</a></h1>
 
 <div style="width:100%;float:left;clear:both;">
@@ -22,12 +25,17 @@ Reconstruímos todo tipo de parte metal mecánica a su estado original,
 </a>
 </div> 
 
-<a href="/img/galeria/no-disponible.png" data-lightbox="galeria" class="galeria-normal">
-  <img src="/img/galeria/no-disponible.png" />
-  <div><h1>Rectificado de espejos  </H1>
-   <p> Recuperamos piezas en Fo. Vo, ya sea con soldadura en frío, metalizado, o soldadura en caliente, de acuerdo a la pieza a reparar.</p> 
-  </div>
-</a>
+${funciones.elemento({
+"titulo": "Rectificado de espejos.",
+"descripcion": "Rectificamos espejos con piedra. Contamos con chuck magnetico y rectificador radial con mesa giratoria. Podemos rectificar espejos de hasta 2 mm de espesor.",
+"imagen_principal": "/img/galeria/hidraulica/thumb/granada-rectificada-detalle.JPG",
+"descripcion_imagen": "" ,
+"mas_imagenes": [
+["/img/galeria/hidraulica/thumb/granada-danada.JPG","Engrane muestra"],
+["/img/galeria/hidraulica/thumb/granada-rectificada.JPG","Engrane muestra"]
+]
+})}
+
 
 
 <a href="/img/galeria/no-disponible.png" data-lightbox="galeria" class="galeria-normal">
