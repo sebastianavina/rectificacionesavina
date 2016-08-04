@@ -12,6 +12,7 @@
 	<script src="/js/jquery.js"></script>
 	<script src="/js/index.js"></script>
 	<script src="/js/jquery.mobile-1.4.5.min.js"></script>
+	<meta name="theme-color" content="#003366" />
 
 
 	<style type="text/css" media="screen">
