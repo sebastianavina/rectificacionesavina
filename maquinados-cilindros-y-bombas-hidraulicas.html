@@ -1,29 +1,26 @@
 <%inherit file="base.mako"/>
 <%block name="header">Fabricacion, reconstruccion de cilindros hidraulicos, bombas y cajas de valvulas - </%block>
 
+<h1>Bombas hidraulicas:</h1>
+
+<p>Reconstruímos todo tipo de parte metal mecánica a su estado original,</p>
+
+
 <%namespace file="base_elemento.mako" name="funciones" />
 
-<h1><a name="marcas">Bombas hidraulicas:</a></h1>
 
-<div style="width:100%;float:left;clear:both;">
-Reconstruímos todo tipo de parte metal mecánica a su estado original,
+${funciones.elemento({
+"titulo": "Fabricaci&oacute;n de cilindro hidraulico.",
+"descripcion": "Contamos con la capacidad tecnica y de producci&oacute;n para fabricar cualquier tipo de cilindro hidrauilico. Desde el tubo pulido (honeado) hasta las tuercas, uniones, pist&oacute;n y embolo. Contamos asi mismo con extenso surtido de sellos, bronce SAE 62, SAE64 y tefl&oacute;n para fabricar cualquier cinta de desgaste, respaldo, o accesorio necesario.",
+"imagen_principal": "/img/galeria/hidraulica/thumb/fabricacion-cilindro-hidraulico-2.JPG",
+"descripcion_imagen": "" ,
+"mas_imagenes": [
+["/img/galeria/hidraulica/thumb/fabricacion-cilindro-hidraulico-1.JPG","Engrane muestra"],
+["/img/galeria/hidraulica/thumb/fabricacion-cilindro-hidraulico-4.JPG","Engrane muestra"]
+]
+})}
 
-<a href="/img/galeria/hidraulica/version-web/fabricacion-cilindro-hidraulico-2.JPG" data-lightbox="galeria" class="galeria-normal">
-  <img src="/img/galeria/hidraulica/thumb/fabricacion-cilindro-hidraulico-2.JPG" />
-  <div><h1>Fabricación de cilindro hidraulico </H1>
-    <p>Contamos con la capacidad tecnica y de produccion para fabricar cualquier tipo de cilindro hidrauilico. Desde el tubo pulido (honeado) hasta las tuercas, uniones, pistón y embolo. Contamos asi mismo con extenso surtido de sellos, bronce SAE 62, SAE64 y teflón para fabricar cualquier cinta de desgaste, respaldo, o accesorio necesario. </p>
-  </div>
-</a>
 
-<div id="masImagenes">
-<div>Más imagenes:</div> 
-<a href="/img/galeria/hidraulica/version-web/fabricacion-cilindro-hidraulico-1.JPG" data-lightbox="galeria" class="galeria-small">
-  <img src="/img/galeria/hidraulica/thumb/fabricacion-cilindro-hidraulico-1.JPG" />
-</a>
-<a href="/img/galeria/hidraulica/version-web/fabricacion-cilindro-hidraulico-4.JPG" data-lightbox="galeria" class="galeria-small">
-  <img src="/img/galeria/hidraulica/thumb/fabricacion-cilindro-hidraulico-4.JPG" />
-</a>
-</div> 
 
 ${funciones.elemento({
 "titulo": "Rectificado de espejos.",
@@ -35,15 +32,4 @@ ${funciones.elemento({
 ["/img/galeria/hidraulica/thumb/granada-rectificada.JPG","Engrane muestra"]
 ]
 })}
-
-
-
-<a href="/img/galeria/no-disponible.png" data-lightbox="galeria" class="galeria-normal">
-  <img src="/img/galeria/no-disponible.png" />
-  <div><h1> Caja de valvulas hidraulicas </H1> 
-    <p> Rectificado de caja de valvulas hidraulicas. </p>
-  </div>
-</a>
-
-</div>
 
