@@ -1,0 +1,102 @@
+html {
+    background: #FFF url(/img/fondo.jpg)  repeat-x top left;
+}
+
+body {
+    background: #FFF url(/img/fondo.jpg)  repeat-x top left;
+}
+
+@media only screen and (min-width: 1020px){
+    .ui-page {
+        width: 1024px !important;
+        margin: 20px auto !important;
+        position: relative !important;
+        border-right: 1px #333 outset !important;
+        border-left: 1px #333 outset !important;
+	background: white;
+    }
+}
+
+li.ui-first-child {
+    /*background:red;*/
+}
+
+div.ui-content.jqm-content {
+    background:#FFF url(/img/fondo_menu.jpg) repeat-x top left;
+}
+
+.ui-collapsible-heading {
+    background:url(/img/menuIzq.png);
+}
+
+.ui-page-theme-a, a:visited, html, .ui-bar-a, a:visited,, html, .ui-body-a, a:visited,, html, body, .ui-group-theme-a, a:visited {
+    color: #333;
+    font-weight:bolder;
+}
+.ui-page-theme-a, a:visited,, html, .ui-bar-a, a:visited,, html, .ui-body-a, a:visited,, html, body, .ui-group-theme-a, a:visited  {
+    color: #333;
+    font-weight:bolder;
+}
+
+
+#masImagenes {
+    float:right;
+    clear:right;
+}
+#masImagenes div.letrero {
+    font-size:20px;
+    padding:10px;
+    float:left;
+    width:240px;
+    height:40px;
+    text-align:right;
+}
+#masImagenes div.fotos {
+    float:right;
+    max-width:600px;
+}
+
+#masImagenes div.fotos img {
+    float:right;
+    padding: 10px; 
+}
+
+
+.ui-collapsible-heading-toggle, .ui-btn, ui-btn-icon-right, .ui-btn-inherit, .ui-icon-carat-d {
+    font-size:10px;
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a  {
+    color: #036;
+}
+
+ html .ui-body-a .ui-btn:visited {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: white;
+    text-shadow: 0 1px 0 #f3f3f3;
+    font-weight:bolder;
+}
+
+@media (max-width: 60em) {
+
+
+    .ui-collapsible-heading-toggle, .ui-btn, ui-btn-icon-right, .ui-btn-inherit, .ui-icon-carat-d {
+	font-size:14px;
+    }
+
+
+
+    .jqm-demos .jqm-header p {
+	visibility: hidden;
+    }
+
+
+
+    html .ui-body-a .ui-btn:visited {
+	background-color: #f6f6f6;
+	border-color: #ddd;
+	color: #333;
+	text-shadow: 0 1px 0 #f3f3f3;
+    }
+}
