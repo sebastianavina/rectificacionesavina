@@ -21,9 +21,6 @@ li.ui-first-child {
     /*background:red;*/
 }
 
-div.ui-content.jqm-content {
-    background:#FFF url(/img/fondo_menu.jpg) repeat-x top left;
-}
 
 .ui-collapsible-heading {
     background:url(/img/menuIzq.png);
@@ -99,4 +96,16 @@ div.ui-content.jqm-content {
 	color: #333;
 	text-shadow: 0 1px 0 #f3f3f3;
     }
+}
+
+ul.pagina-seccion {
+    padding-bottom:3em;
+}
+
+#elemento-pagina-seccion {
+    background: white;
+    border:10 px solid red;
+}
+ul.pagina-seccion li a h1 {
+    font-size:2em;
 }
